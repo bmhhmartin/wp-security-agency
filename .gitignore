@@ -1,0 +1,48 @@
+# WordPress core
+wp-admin/
+wp-includes/
+
+# Sensitive files
+wp-config.php
+
+# Uploads and user-generated content
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/blogs.dir/
+
+# Caching plugins
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Plugin and theme files
+wp-content/plugins/*
+!wp-content/plugins/index.php
+wp-content/themes/*
+!wp-content/themes/index.php
+
+# Node.js dependencies and build artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer dependencies
+vendor/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor specific files
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.sql
+*.tar.gz
+*.zip
