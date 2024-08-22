@@ -23,7 +23,7 @@
     <!-- header section strats -->
     <div class="hero_bg_box">
       <div class="img-box">
-        <img src="images/hero-bg.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/hero-bg.jpg" alt="banner">
       </div>
     </div>
 
