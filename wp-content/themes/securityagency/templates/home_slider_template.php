@@ -85,4 +85,3 @@
       </div>
     </section>
   <!-- end slider section -->
-  </div>

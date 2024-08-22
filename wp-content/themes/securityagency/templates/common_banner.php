@@ -1,0 +1,1 @@
+<div>Common Banner</div>
